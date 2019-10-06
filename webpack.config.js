@@ -11,5 +11,6 @@ module.exports = {
     libraryTarget: 'umd',
     globalObject: "typeof self !== 'undefined' ? self : this"
   },
-  mode: 'production'
+  mode: 'production',
+  target: 'web'
 };
