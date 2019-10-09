@@ -1,7 +1,7 @@
 {
   "name": "@ryanburnette/hashcash",
-  "version": "2.0.2",
-  "description": "An asyncronous implementation of hashcash for Node.js and the browser.",
+  "version": "2.0.3",
+  "description": "An asynchronous implementation of hashcash for Node.js and the browser.",
   "main": "index.js",
   "browser": {
     "./lib/hash.js": "./lib/hash-browser.js",

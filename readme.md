@@ -2,7 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/%40ryanburnette%2Fhashcash.svg)](https://badge.fury.io/js/%40ryanburnette%2Fhashcash)
 
-An asyncronous implementation of [hashcash][2] for Node.js and the browser.
+An asynchronous implementation of [hashcash][2] for Node.js and the browser.
 
 ## Usage
 
@@ -41,7 +41,7 @@ For direct browser implementation, use `./dist/index.js` or via cdn...
 <script src="https://unpkg.com/@ryanburnette/hashcash/dist/index.js" />
 ```
 
-[1]: https://github.com/ryanburnette/hashcash
+[1]: https://github.com/ryanburnette/hashcash.git
 [2]: http://www.hashcash.org/
 [3]: https://developer.mozilla.org/en-US/docs/Web/API/Web_Crypto_API
 [4]: https://coolaj86.com
