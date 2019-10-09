@@ -1,7 +1,7 @@
 {
   "name": "@ryanburnette/hashcash",
-  "version": "2.0.0",
-  "description": "An async implementation of hashcash for both Node.js and the browser. In the browser it uses WebCrypto, but not TextEncoder.",
+  "version": "2.0.1",
+  "description": "An asyncronous implementation of hashcash for Node.js and the browser.",
   "main": "index.js",
   "browser": {
     "./lib/hash.js": "./lib/hash-browser.js",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "gitea@code.ryanburnette.com:ryanburnette/hashcash.git"
+    "url": "https://github.com/ryanburnette/hashcash.git"
   },
   "author": "Ryan Burnette <ryan.burnette@gmail.com> (https://ryanburnette.com)",
   "license": "ISC",

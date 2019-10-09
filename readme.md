@@ -1,12 +1,13 @@
-# @ryanburnette/[hashcash][1]
+# [hashcash][1]
 
-An async implementation of [hashcash][2] for both Node.js and the browser.
-In the browser it uses [WebCrypto][3], but not TextEncoder.
+[![npm version](https://badge.fury.io/js/%40ryanburnette%2Fhashcash.svg)](https://badge.fury.io/js/%40ryanburnette%2Fhashcash)
+
+An asyncronous implementation of [hashcash][2] for Node.js and the browser.
 
 ## Usage
 
-Require and create an instance. Pass in optional seed string.
-Pass in optional need string to increase complexity.
+Require and create an instance. Pass in optional seed string. Pass in optional
+need string to increase complexity.
 
 ```js
 var hashcash = require('@ryanburnette/hashcash');
@@ -31,8 +32,8 @@ h.solve().then(function(solution) {
 
 ## Package
 
-The package works as-is on Node.js and will work
-with webpack or rollup for packaged browser use.
+The package works as-is on Node.js and will work with webpack or rollup for
+packaged browser use.
 
 For direct browser implementation, use `./dist/index.js` or via cdn...
 
@@ -40,6 +41,7 @@ For direct browser implementation, use `./dist/index.js` or via cdn...
 <script src="https://unpkg.com/@ryanburnette/hashcash/dist/index.js" />
 ```
 
-[1]: https://code.ryanburnette.com/ryanburnette/hashcash
+[1]: https://github.com/ryanburnette/hashcash
 [2]: http://www.hashcash.org/
 [3]: https://developer.mozilla.org/en-US/docs/Web/API/Web_Crypto_API
+[4]: https://coolaj86.com
