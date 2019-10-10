@@ -1,6 +1,6 @@
 # [hashcash][1]
 
-[![npm version](https://badge.fury.io/js/%40ryanburnette%2Fhashcash.svg)](https://badge.fury.io/js/%40ryanburnette%2Fhashcash)
+[![repo](https://img.shields.io/badge/repository-Github-black.svg?style=flat-square)](https://github.com/ryanburnette/hashcash) [![npm](https://img.shields.io/badge/package-NPM-green.svg?style=flat-square)](https://www.npmjs.com/package/@ryanburnette/hashcash)
 
 An asynchronous implementation of [hashcash][2] for Node.js and the browser.
 
