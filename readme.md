@@ -35,10 +35,10 @@ h.solve().then(function(solution) {
 The package works as-is on Node.js and will work with webpack or rollup for
 packaged browser use.
 
-For direct browser implementation, use `./dist/index.js` or via cdn...
+For direct browser implementation, use `./dist/hashcash.js` or via cdn...
 
-```
-<script src="https://unpkg.com/@ryanburnette/hashcash/dist/index.js" />
+```html
+<script src="https://unpkg.com/@ryanburnette/hashcash/dist/hashcash.js" />
 ```
 
 [1]: https://github.com/ryanburnette/hashcash.git

@@ -1,6 +1,6 @@
 {
   "name": "@ryanburnette/hashcash",
-  "version": "2.0.4",
+  "version": "2.1.0",
   "description": "An asynchronous implementation of hashcash for Node.js and the browser.",
   "main": "index.js",
   "browser": {
